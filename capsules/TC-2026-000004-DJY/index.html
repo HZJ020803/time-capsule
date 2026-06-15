@@ -2,7 +2,9 @@
 
 <html>
 
+
 <head>
+
 
 <meta charset="UTF-8">
 
@@ -16,29 +18,41 @@ Cyber Time Capsule
 <style>
 
 
+
 body {
+
 
     font-family: Arial, sans-serif;
 
-    max-width: 900px;
 
-    margin: auto;
+    max-width:1000px;
 
-    padding: 30px;
 
-    background: #f5f5f5;
+    margin:auto;
 
-    line-height: 1.7;
+
+    padding:30px;
+
+
+    background:#f5f5f5;
+
+
+    line-height:1.7;
+
 
 }
 
 
 
+
 h1 {
+
 
     text-align:center;
 
+
     color:#333;
+
 
 }
 
@@ -46,41 +60,107 @@ h1 {
 
 .subtitle {
 
+
     text-align:center;
+
 
     color:#777;
 
+
 }
+
 
 
 
 
 .card {
 
+
     background:white;
+
 
     padding:25px;
 
+
     margin-top:25px;
 
-    border-radius:15px;
+
+    border-radius:18px;
+
 
     border:1px solid #ddd;
 
 
+
     box-shadow:
+
     0 4px 12px rgba(0,0,0,0.12);
+
 
 }
 
 
 
 
+
+
+
+.memory-container {
+
+
+    display:flex;
+
+
+    flex-wrap:wrap;
+
+
+    justify-content:center;
+
+
+}
+
+
+
+
+
+.memory-card {
+
+
+    width:300px;
+
+
+    margin:15px;
+
+
+    background:#fafafa;
+
+
+    padding:15px;
+
+
+    border-radius:15px;
+
+
+
+    box-shadow:
+
+    0 4px 12px rgba(0,0,0,0.15);
+
+
+
+}
+
+
+
+
+
+
+
 .photo {
 
-    width:280px;
 
-    margin:10px;
+    width:100%;
+
 
     border-radius:12px;
 
@@ -88,25 +168,62 @@ h1 {
     border:4px solid #eeeeee;
 
 
-    box-shadow:
-    0 3px 8px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+.memory-title {
+
+
+    text-align:center;
+
+
+    font-size:18px;
+
+
+    font-weight:bold;
+
+
+    margin-top:15px;
+
 
 }
+
+
+
+
+
+.memory-info {
+
+
+    margin-top:10px;
+
+
+    font-size:14px;
+
+
+    color:#666;
+
+
+}
+
+
 
 
 
 .video {
 
 
-    width:700px;
-
-    max-width:100%;
+    width:100%;
 
 
     border-radius:12px;
 
 
 }
+
 
 
 
@@ -120,12 +237,14 @@ h1 {
     padding:20px;
 
 
-    border-radius:10px;
+    border-radius:12px;
 
 
     white-space:pre-line;
 
+
 }
+
 
 
 
@@ -135,7 +254,9 @@ h1 {
 
     text-align:center;
 
+
     margin-top:40px;
+
 
     color:#999;
 
@@ -147,7 +268,10 @@ h1 {
 </style>
 
 
+
 </head>
+
+
 
 
 
@@ -157,17 +281,23 @@ h1 {
 
 
 
+
 <h1>
+
 🌌 Cyber Time Capsule
+
 </h1>
 
 
 
 <p class="subtitle">
 
-A small place where memories stay.
+A small place where memories stay forever.
 
 </p>
+
+
+
 
 
 
@@ -177,8 +307,11 @@ A small place where memories stay.
 <div class="card">
 
 
+
 <h2>
+
 📦 Capsule Information
+
 </h2>
 
 
@@ -188,7 +321,9 @@ A small place where memories stay.
 Capsule ID:
 
 <b>
-TC-2026-00005
+
+TC-2026-00004-DJY
+
 </b>
 
 
@@ -205,7 +340,19 @@ Created:
 </p>
 
 
+
+<p>
+
+This capsule preserves precious memories.
+
+</p>
+
+
 </div>
+
+
+
+
 
 
 
@@ -218,21 +365,144 @@ Created:
 
 
 <h2>
-📷 Photos
+
+📷 Photo Memories
+
 </h2>
 
 
 
-<img 
+
+
+<div class="memory-container">
+
+
+
+
+
+
+
+<div class="memory-card">
+
+
+
+<img
+
 class="photo"
+
 src="photo1.jpg">
 
 
 
-<img 
+
+
+<div class="memory-title">
+
+A Special Moment
+
+</div>
+
+
+
+
+
+<div class="memory-info">
+
+
+Date:
+
+2026-06-12
+
+
+<br>
+
+
+Location:
+
+Columbus, Ohio
+
+
+<br><br>
+
+
+Story:
+
+A memory that deserves to be preserved forever.
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="memory-card">
+
+
+
+<img
+
 class="photo"
+
 src="photo2.jpg">
 
+
+
+
+
+<div class="memory-title">
+
+Another Memory
+
+</div>
+
+
+
+
+
+<div class="memory-info">
+
+
+Date:
+
+2026-06-12
+
+
+<br>
+
+
+Location:
+
+Unknown
+
+
+<br><br>
+
+
+Story:
+
+A small moment from the past.
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+</div>
 
 
 </div>
@@ -249,20 +519,35 @@ src="photo2.jpg">
 
 
 <h2>
-🎬 Video
+
+🎬 Video Memory
+
 </h2>
 
 
 
-<video 
+
+
+<div class="memory-card">
+
+
+
+<video
+
 class="video"
+
 controls>
 
 
 
+
 <source
+
 src="video1.mp4"
+
 type="video/mp4">
+
+
 
 
 
@@ -270,7 +555,51 @@ Your browser does not support video.
 
 
 
+
+
 </video>
+
+
+
+
+
+
+<div class="memory-title">
+
+
+Video Memory
+
+
+</div>
+
+
+
+
+
+<div class="memory-info">
+
+
+Recorded:
+
+2026-06-12
+
+
+<br><br>
+
+
+Story:
+
+A short video preserving a special moment.
+
+</div>
+
+
+
+
+
+</div>
+
+
 
 
 
@@ -284,12 +613,18 @@ Your browser does not support video.
 
 
 
+
+
+
 <div class="card">
 
 
 <h2>
+
 ✉ Letter
+
 </h2>
+
 
 
 
@@ -300,20 +635,21 @@ Your browser does not support video.
 Dear Future Me,
 
 
-This capsule contains memories
-that I want to preserve forever.
-
-
-May these moments still shine
+This Cyber Time Capsule contains memories
+that I hope will remain meaningful
 many years later.
 
 
+May these moments never disappear.
+
+
 
 </div>
 
 
 
 </div>
+
 
 
 
@@ -329,6 +665,10 @@ Cyber Time Capsule Project
 
 
 </div>
+
+
+
+
 
 
 

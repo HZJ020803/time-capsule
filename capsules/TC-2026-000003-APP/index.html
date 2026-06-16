@@ -1,102 +1,278 @@
 <!DOCTYPE html>
+
 <html>
+
 
 <head>
 
+
 <meta charset="UTF-8">
 
+
 <title>
-TC-2026-000003-APP
+Cyber Time Capsule
 </title>
+
 
 
 <style>
 
+
+
 body {
 
+
     font-family: Arial, sans-serif;
-    max-width: 900px;
-    margin: auto;
-    padding: 30px;
-    background: #f5f5f5;
-    line-height: 1.7;
+
+
+    max-width:1000px;
+
+
+    margin:auto;
+
+
+    padding:30px;
+
+
+    background:#f5f5f5;
+
+
+    line-height:1.7;
+
 
 }
+
+
 
 
 h1 {
 
+
     text-align:center;
+
+
     color:#333;
 
+
 }
+
+
+
+.subtitle {
+
+
+    text-align:center;
+
+
+    color:#777;
+
+
+}
+
+
+
 
 
 .card {
 
+
     background:white;
+
+
     padding:25px;
+
+
     margin-top:25px;
 
-    border-radius:15px;
+
+    border-radius:18px;
+
 
     border:1px solid #ddd;
 
+
+
     box-shadow:
+
     0 4px 12px rgba(0,0,0,0.12);
 
+
 }
+
+
+
+
+
+
+
+.memory-container {
+
+
+    display:flex;
+
+
+    flex-wrap:wrap;
+
+
+    justify-content:center;
+
+
+}
+
+
+
+
+
+.memory-card {
+
+
+    width:300px;
+
+
+    margin:15px;
+
+
+    background:#fafafa;
+
+
+    padding:15px;
+
+
+    border-radius:15px;
+
+
+
+    box-shadow:
+
+    0 4px 12px rgba(0,0,0,0.15);
+
+
+
+}
+
+
+
+
 
 
 
 .photo {
 
-    width:280px;
 
-    margin:10px;
+    width:100%;
+
 
     border-radius:12px;
 
+
     border:4px solid #eeeeee;
 
-    box-shadow:
-    0 3px 8px rgba(0,0,0,0.2);
 
 }
+
+
+
+
+
+.memory-title {
+
+
+    text-align:center;
+
+
+    font-size:18px;
+
+
+    font-weight:bold;
+
+
+    margin-top:15px;
+
+
+}
+
+
+
+
+
+.memory-info {
+
+
+    margin-top:10px;
+
+
+    font-size:14px;
+
+
+    color:#666;
+
+
+}
+
+
 
 
 
 .video {
 
-    width:700px;
 
-    max-width:100%;
+    width:100%;
+
 
     border-radius:12px;
 
-    border:4px solid #eeeeee;
 
 }
+
+
 
 
 
 .letter {
 
+
     background:#fafafa;
+
 
     padding:20px;
 
-    border-radius:10px;
+
+    border-radius:12px;
+
 
     white-space:pre-line;
 
+
 }
+
+
+
+
+
+.footer {
+
+
+    text-align:center;
+
+
+    margin-top:40px;
+
+
+    color:#999;
+
+
+}
+
 
 
 </style>
 
 
+
 </head>
+
+
+
 
 
 
@@ -104,31 +280,70 @@ h1 {
 
 
 
+
+
 <h1>
-Cyber Time Capsule
+
+🌌 Cyber Time Capsule
+
 </h1>
+
+
+
+<p class="subtitle">
+
+Tiny Capsule Stores Great Memories
+
+</p>
+
+
+
+
+
+
 
 
 
 <div class="card">
 
 
+
 <h2>
-TC-2026-000003-APP
+
+📦 Capsule Information
+
 </h2>
+
+
+
+<p>
+
+Capsule ID:
+
+<b>
+
+TC-2026-00003-APP
+
+</b>
+
+
+</p>
+
 
 
 <p>
 
 Created:
+
 2026-06-12
 
 </p>
 
 
+
 <p>
 
-A small collection of memories.
+I appreciate this valuable friendship
 
 </p>
 
@@ -139,22 +354,84 @@ A small collection of memories.
 
 
 
+
+
+
+
+
+
+
 <div class="card">
 
 
 <h2>
-📷 Photos
+
+📷 Photo Memories
+
 </h2>
 
 
 
-<img class="photo" src="photo1.jpg">
 
 
-<img class="photo" src="photo2.jpg">
+<div class="memory-container">
 
 
-<img class="photo" src="photo3.jpg">
+
+
+
+
+
+<div class="memory-card">
+
+
+
+<img
+
+class="photo"
+
+src="photo1.jpg">
+
+
+
+
+
+<div class="memory-title">
+
+Hammock
+
+</div>
+
+
+
+
+
+<div class="memory-info">
+
+
+Date:
+
+2021-09-10
+
+
+<br>
+
+
+Location:
+
+OSU Campus-Mirror Lake
+
+
+<br><br>
+
+
+Story:
+
+Alex brought me to the mirror lake and made me a hammock (I once thought he meant a "hammer")
+    PS: I'm pretty sure he was photographing me as I took the picture.
+
+
+</div>
 
 
 
@@ -165,29 +442,230 @@ A small collection of memories.
 
 
 
+
+
+
+<div class="memory-card">
+
+
+
+<img
+
+class="photo"
+
+src="photo2.jpg">
+
+
+
+
+
+<div class="memory-title">
+
+In the canyon
+
+</div>
+
+
+
+
+
+<div class="memory-info">
+
+
+Date:
+
+2024-03-12
+
+
+<br>
+
+
+Location:
+
+Colorado Springs
+
+
+<br><br>
+
+
+Story:
+
+The weather was great and the colors were bright. 
+    I didn't realize we were att the famous Pike's Hill till the end of the journey.
+    Alex took me and other friends to a steep hill, which took me some effort to climb on.
+
+</div>
+
+
+
+</div>
+
+
+
+<div class="memory-card">
+
+
+
+<img
+
+class="photo"
+
+src="photo3.jpg">
+
+
+
+
+
+<div class="memory-title">
+
+The Carnivorous Carnivore is ready for a Carnival
+
+</div>
+
+
+
+
+
+<div class="memory-info">
+
+
+Date:
+
+2024-08-19
+
+
+<br>
+
+
+Location:
+
+351 E 15th Colombus OH
+
+
+<br><br>
+
+
+Story:
+
+Alex and I have different philosophy about cooking steaks, but we all manage to make the meat delicious.
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
 <div class="card">
 
 
 <h2>
-🎬 Video
+
+🎬 Video Memory
+
 </h2>
 
 
 
-<video class="video" controls>
 
-<source 
+
+<div class="memory-card">
+
+
+
+<video
+
+class="video"
+
+controls>
+
+
+
+
+<source
+
 src="video1.mp4"
+
 type="video/mp4">
 
+
+
+
+
 Your browser does not support video.
+
+
+
 
 
 </video>
 
 
 
+
+
+
+<div class="memory-title">
+
+
+Video Memory
+
+
 </div>
+
+
+
+
+
+<div class="memory-info">
+
+
+Recorded:
+
+2024-10-24
+
+
+<br><br>
+
+
+Story:
+
+He's not only a good cook and smart engineer, but also a creative bartender that makes fancy liquor.
+    I wish I could drink but his "masterpiece" was burning and chocking sometimes...
+    PS: I do like color purple as he does. But I shall never make purple as the light in the living room.
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
 
 
 
@@ -199,8 +677,13 @@ Your browser does not support video.
 
 
 <h2>
-✉ Letter For My Best Friend
+
+✉ Letter
+
 </h2>
+
+
+
 
 
 <div class="letter">
@@ -208,19 +691,40 @@ Your browser does not support video.
 
 June 12th 2026
 
-  I made this Cyber Time-Capsule for Alexander P. Peffley, my best friend on the Western Hemisphere.
-  
-  He offered me generous help with great patience and care, made me have an enjoyable experience in the US.
-  
-  "Till the day I lost my hair and teeth, I wish I can still keep in touch with you but not to be strangers."
+I made this Cyber Time-Capsule for Alexander P. Peffley, my best friend on the Western Hemisphere.
 
-  Our memory shall be preserved for an eternity.
+He offered me generous help with great patience and care, made me have an enjoyable experience in the US.
+
+"Till the day I lost my hair and teeth, I wish I can still keep in touch with you but not to be strangers."
+
+Our memory shall be preserved for an eternity.
+
+
+
+</div>
+
 
 
 </div>
 
 
+
+
+
+
+
+
+
+<div class="footer">
+
+
+Cyber Time Capsule Project
+
+
 </div>
+
+
+
 
 
 
